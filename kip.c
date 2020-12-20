@@ -232,7 +232,7 @@ void kip1_process(kip1_ctx_t *ctx) {
     }
 
     if (ctx->tool_ctx->action & ACTION_INFO) {
-        kip1_print(ctx, 0);
+        //kip1_print(ctx, 0); //don't print out kip info
     }
 
     if (ctx->tool_ctx->action & ACTION_EXTRACT) {
